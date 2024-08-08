@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Property Management System
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a property management system built using **Next.js**, **Tailwind CSS**, and **Magic UI**. It is a frontend-only application where users can browse listed properties, favorite the ones they like, and purchase them by providing necessary details.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Property Listing**: All available properties are displayed on the main page. Each property comes with a detailed description, image, and price.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Favorite Properties**: Users can mark properties as favorites, allowing them to easily find and review them later.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Add Properties to Cart**: Users can Add the particular properties to the cart.
 
-## Learn More
+- **Purchase Properties**: Users can purchase properties by filling out a form with their details. The system calculates the total price based on the selected properties.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: A React-based framework for server-side rendering and building static websites.
+- **Tailwind CSS**: A utility-first CSS framework used to design and style the components throughout the website.
+- **Magic UI**: A UI library
